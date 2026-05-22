@@ -54,7 +54,7 @@ export default function InteractiveShowcase() {
             z: isActive ? 50 : 0,
           }}
           transition={{ type: "spring", stiffness: 150, damping: 20 }}
-          className="w-full h-full relative transform-style-3d p-8 md:p-12 flex flex-col justify-between overflow-hidden rounded-3xl"
+          className="w-full h-full relative transform-style-3d p-6 md:p-12 flex flex-col justify-between overflow-hidden rounded-3xl"
         >
           {/* Background Video */}
           <div className="absolute inset-0 z-0 bg-[#090909]">

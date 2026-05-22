@@ -40,7 +40,7 @@ export default function ExperienceSection() {
               style={{ x, opacity, scale }}
               className="w-full text-center mix-blend-difference"
             >
-              <h3 className={`font-display font-black text-6xl md:text-8xl lg:text-[10rem] uppercase tracking-tighter leading-none ${
+              <h3 className={`font-display font-black text-4xl sm:text-6xl md:text-8xl lg:text-[10rem] uppercase tracking-tighter leading-none ${
                 word === "COLD" || word === "ENERGETIC" ? "text-transparent bg-clip-text bg-gradient-to-r from-[#D9D9D9] to-[#F5F5F5] text-glow-silver" 
                 : word === "SHARP" ? "text-[#E61B23] text-glow" 
                 : "text-[#1C1C1C] drop-shadow-[0_0_1px_rgba(255,255,255,0.3)]"

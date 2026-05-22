@@ -114,7 +114,7 @@ export default function ProductReveal() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.8, ease: "easeOut" }}
-            className="font-display text-5xl md:text-7xl text-[#F5F5F5] font-black tracking-tight uppercase mb-4 drop-shadow-2xl"
+            className="font-display text-4xl sm:text-5xl md:text-7xl text-[#F5F5F5] font-black tracking-tight uppercase mb-4 drop-shadow-2xl"
           >
             OPEN THE BOLD.
           </motion.h2>
