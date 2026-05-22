@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 512" width="1024" height="512">
+  <defs>
+    <style>
+      .script { font-family: 'Brush Script MT', 'Lucida Handwriting', cursive; font-size: 50px; fill: #111; }
+      .serif { font-family: 'Georgia', 'Times New Roman', serif; font-size: 160px; font-weight: bold; fill: #E61B23; letter-spacing: -2px; }
+      .small-text { font-family: 'Arial', sans-serif; font-size: 14px; fill: #E61B23; font-weight: bold; }
+      .tiny-text { font-family: 'Arial', sans-serif; font-size: 10px; fill: #111; }
+      .stripe-text { font-family: 'Arial', sans-serif; font-size: 12px; fill: #fff; font-weight: bold; letter-spacing: 2px; }
+    </style>
+  </defs>
+
+  <!-- This SVG is an unwrapped 360-degree cylindrical texture map -->
+
+  <!-- BACK OF CAN (Nutrition Facts & Barcode) - Around x=170 to 340 -->
+  <g transform="translate(256, 256)">
+    <!-- Nutrition Box -->
+    <rect x="-80" y="-120" width="160" height="150" fill="transparent" stroke="#111" stroke-width="2" />
+    <text x="0" y="-100" text-anchor="middle" class="small-text" fill="#111">Nutrition Facts</text>
+    <line x1="-70" y1="-90" x2="70" y2="-90" stroke="#111" stroke-width="4" />
+    <text x="-70" y="-70" text-anchor="start" class="tiny-text">Serving Size 1 Can</text>
+    <line x1="-70" y1="-60" x2="70" y2="-60" stroke="#111" stroke-width="1" />
+    <text x="-70" y="-45" text-anchor="start" class="tiny-text">Calories 0</text>
+    <line x1="-70" y1="-35" x2="70" y2="-35" stroke="#111" stroke-width="2" />
+    <text x="-70" y="-20" text-anchor="start" class="tiny-text">Total Fat 0g</text>
+    <text x="-70" y="-5" text-anchor="start" class="tiny-text">Sodium 40mg</text>
+    <text x="-70" y="10" text-anchor="start" class="tiny-text">Total Carbohydrate 0g</text>
+    <text x="-70" y="25" text-anchor="start" class="tiny-text">Protein 0g</text>
+    
+    <!-- Barcode -->
+    <g transform="translate(-60, 50)">
+      <rect x="0" y="0" width="4" height="60" fill="#111" />
+      <rect x="8" y="0" width="2" height="60" fill="#111" />
+      <rect x="14" y="0" width="6" height="60" fill="#111" />
+      <rect x="24" y="0" width="2" height="60" fill="#111" />
+      <rect x="30" y="0" width="8" height="60" fill="#111" />
+      <rect x="42" y="0" width="2" height="60" fill="#111" />
+      <rect x="48" y="0" width="4" height="60" fill="#111" />
+      <rect x="56" y="0" width="6" height="60" fill="#111" />
+      <rect x="66" y="0" width="2" height="60" fill="#111" />
+      <rect x="72" y="0" width="8" height="60" fill="#111" />
+      <rect x="84" y="0" width="4" height="60" fill="#111" />
+      <rect x="92" y="0" width="2" height="60" fill="#111" />
+      <rect x="98" y="0" width="6" height="60" fill="#111" />
+      <text x="50" y="75" text-anchor="middle" class="tiny-text" style="letter-spacing: 5px;">049000028904</text>
+    </g>
+    
+    <!-- Recycle Logo Placeholder -->
+    <circle cx="70" cy="80" r="15" fill="transparent" stroke="#111" stroke-width="2" />
+    <text x="70" y="84" text-anchor="middle" class="tiny-text" font-size="8">RECYCLE</text>
+  </g>
+
+  <!-- FRONT OF CAN - Around x=512 -->
+  <g transform="translate(512, 256)">
+    <!-- Small script 'Diet' -->
+    <text x="-60" y="-80" text-anchor="middle" class="script" transform="rotate(-15)">Diet</text>
+    <!-- Large serif 'Coke' -->
+    <text x="0" y="40" text-anchor="middle" class="serif">Coke</text>
+    
+    <!-- Bottom text -->
+    <text x="0" y="160" text-anchor="middle" class="small-text">NO SUGAR</text>
+    <text x="0" y="180" text-anchor="middle" class="small-text">NO CALORIES</text>
+  </g>
+
+  <!-- RIGHT SIDE OF CAN (Red Stripe) - Around x=768 -->
+  <g transform="translate(768, 256)">
+    <!-- Vertical Red Stripe -->
+    <rect x="-15" y="-200" width="30" height="400" fill="#E61B23" />
+    <!-- Sideways text on the stripe -->
+    <text x="0" y="0" text-anchor="middle" class="stripe-text" transform="rotate(-90)">NO SUGAR NO CALORIES</text>
+  </g>
+
+  <!-- Water droplets simulation (Subtle noise/dots overlay across the whole texture) -->
+  <g fill="#ffffff" opacity="0.1">
+    <!-- Generating a few random looking droplets manually -->
+    <circle cx="400" cy="100" r="2" />
+    <circle cx="450" cy="150" r="3" />
+    <circle cx="500" cy="80" r="1.5" />
+    <circle cx="550" cy="200" r="2.5" />
+    <circle cx="600" cy="120" r="4" />
+    <circle cx="420" cy="300" r="2" />
+    <circle cx="480" cy="350" r="3" />
+    <circle cx="520" cy="400" r="1.5" />
+    <circle cx="580" cy="280" r="2.5" />
+    <circle cx="620" cy="380" r="2" />
+  </g>
+
+</svg>
