@@ -59,7 +59,7 @@ export default function InteractiveShowcase() {
           {/* Background Video */}
           <div className="absolute inset-0 z-0 bg-[#090909]">
             <motion.video 
-              src="/video2.mp4" 
+              src="/AiAtFingerTips_project/video2.mp4" 
               autoPlay 
               loop 
               muted 

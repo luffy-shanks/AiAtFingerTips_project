@@ -9,7 +9,7 @@ function SodaCan() {
   const groupRef = useRef<THREE.Group>(null);
   
   // Load the comprehensive 360 texture map
-  const texture = useTexture("/diet-coke-texture.svg");
+  const texture = useTexture("/AiAtFingerTips_project/diet-coke-texture.svg");
   
   // Interaction and idle rotation
   useFrame((state) => {

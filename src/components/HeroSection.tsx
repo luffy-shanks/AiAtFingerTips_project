@@ -24,7 +24,7 @@ export default function HeroSection() {
           playsInline
           className="object-cover w-full h-full opacity-60"
         >
-          <source src="/video1.mp4" type="video/mp4" />
+          <source src="/AiAtFingerTips_project/video1.mp4" type="video/mp4" />
         </video>
         {/* Cinematic gradients overlay */}
         <div className="absolute inset-0 bg-gradient-to-t from-[#090909] via-transparent to-transparent z-10" />
